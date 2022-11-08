@@ -15,7 +15,7 @@ class FakeActivity : AppCompatActivity() {
         val quizData = intent.getParcelableExtra<QuestionsActivity.QuizState>("quiz_data")
         if(quizData != null){
             if (!quizData.correct_answer)
-                answer.text = "YES"
+                answer.text = "YeS"
             else
                 answer.text = "NO"
         }
